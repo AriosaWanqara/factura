@@ -1,69 +1,125 @@
-.border{
-    border-radius: 5px;
-    border: 1px solid black;
+.border {
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
-.w-100{
-    width: 100%;
+.w-min {
+  width: min-content;
 }
-.inline{
-    display: inline;
-}
-.text-red-bold{
-    color: red;
-    font-weight: 600;
-}
-.text-left{
-    text-align: left;
+.w-80 {
+  width: 80%;
 }
 
-.text-right{
-    text-align: right;
-}
-.text-center{
-    text-align: center;
-}
-.divider{
-    height: 1px;
-    border-bottom: 1px solid black;
+.w-20 {
+  width: 20%;
 }
 
-.semi-bold{
-    font-weight: 600;
+.w-50 {
+  width: 50%;
+}
+.border-square {
+  border: 1px solid black;
+}
+.w-100 {
+  width: 100%;
+}
+.inline {
+  display: inline;
+}
+.text-red-bold {
+  color: red;
+  font-weight: 600;
+}
+.text-left {
+  text-align: left;
 }
 
-.ml-3{
-    margin-left: 16px;
-}
-.mr-3{
-    margin-right: 16px !important;
+.product-description table {
+  border-collapse: collapse;
+  margin-top: 15px;
 }
 
-.px-3{
-    padding-left: 10px;
-    padding-right: 10px;
+.product-description tr td {
+  white-space: nowrap;
+  border: 1px solid black;
+}
+.price table {
+  border-collapse: collapse;
+  margin-top: 15px;
 }
 
-.left-bold-text{
-    text-align: left;
-    font-weight: 600;
+.price tr td {
+  white-space: nowrap;
+  border: 1px solid black;
 }
-.company{
-    text-align: center;
+.payment-method {
+  border-collapse: collapse;
+  margin-top: 15px;
 }
-.company-detail .left{
-    text-align: center;
-    width: 50%;
- 
+
+.payment-method tr td {
+  white-space: nowrap;
+  border: 1px solid black;
 }
-.company-detail .rigth{
-    width: 50%;
- 
+
+.text-right {
+  text-align: right;
 }
-.m-0{
-    margin: 0;
+.text-center {
+  text-align: center;
 }
-.logo-img{
-    width: 50px;
-    height: 50px;
+.divider {
+  height: 1px;
+  border-bottom: 1px solid black;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.ml-3 {
+  margin-left: 16px;
+}
+.mt-3 {
+  margin-top: 16px;
+}
+.mr-3 {
+  margin-right: 16px !important;
+}
+
+.px-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.left-bold-text {
+  text-align: left;
+  font-weight: 600;
+}
+.company {
+  text-align: center;
+}
+.company-detail .left {
+  text-align: center;
+  width: 50%;
+}
+.company-detail .rigth {
+  width: 50%;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.p-0 {
+  padding: 0;
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+.price {
+  vertical-align: top !important;
 }
